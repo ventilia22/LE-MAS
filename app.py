@@ -14,7 +14,7 @@ UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load the trained model
-model = load_model('model/resnet50V2_model1.h5')
+model = load_model('model/mobilenev2_model1.h5')
 
 # class names
 class_names = ['Chickenpox', 'Cowpox', 'HFMD', 'Healthy', 'Measles', 'Monkeypox']
